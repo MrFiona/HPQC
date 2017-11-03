@@ -1,0 +1,8 @@
+google 110 5000
+google 110 5000
+baidu 100 5000
+guge 50 3000
+guge 50 3000
+sohu 100 4500
+sohu 100 4500
+sohu 100 4500
