@@ -73,45 +73,43 @@ def create_test_set(session, test_set_name, project_id, json_name, program_name,
         os.makedirs('create_test_set_' + program_name)
 
     with open('create_test_set_' + program_name + os.sep + json_name + '_' + str(project_id) + '_json_data.json', 'wb') as p:
-        print 'create!!!!'
         json.dump(json_data, p, sort_keys=True, indent=4)
 
 
 
 @url_access_error_decorator('create_test_instance')
 def create_test_instance_json(case_info, session, print_error=True):
-    # try:
-        url = r'%s/qcbin/rest/domains/dcg/projects/bkc/test-instances' % (session.host)
-        cookiestring = r'LWSSO_COOKIE_KEY=%s;QCSession=%s;XSRF-TOKEN=%s;Path=/' % \
-                       (session.token,
-                        session.cookies[r'QCSession'],
-                        session.cookies[r'XSRF-TOKEN'])
-        req_headers = {r'Cookie': cookiestring, r'Accept': r'application/json'}
-        data = '''{"Fields":[{"Name":"status","values":[{"value":"%s"}]},
-                             {"Name":"iterations","values":[{"value":"%s"}]},
-                             {"Name":"user-01","values":[{"value":"%s"}]},
-                             {"Name":"user-04","values":[{"value":"%s"}]},
-                             {"Name":"user-03","values":[{"value":"%s"}]},
-                             {"Name":"exec-date","values":[{"value":"%s"}]},
-                             {"Name":"cycle-id","values":[{"value":"%s"}]},
-                             {"Name":"test-id","values":[{"value":"%s"}]},
-                             {"Name":"exec-time", "values": [{"value": "%s"}]},
-                             {"Name":"subtype-id","values":[{"value":"hp.qc.test-instance.MANUAL"}]},
-                             {"Name":"test-order","values":[{"value":"%s"}]}],"Type":"test-instance"}'''%\
-                            (case_info['status'],
-                             case_info['iterations'],
-                             case_info['hsd_id'],
-                             case_info['unit'],
-                             case_info['value'],
-                             case_info['exec_date'],
-                             case_info['test_set_id'],
-                             case_info['test_case_id'],
-                             case_info['exec-time'],
-                             case_info['test_case_order'])
+    url = r'%s/qcbin/rest/domains/dcg/projects/bkc/test-instances' % (session.host)
+    cookiestring = r'LWSSO_COOKIE_KEY=%s;QCSession=%s;XSRF-TOKEN=%s;Path=/' % \
+                   (session.token,
+                    session.cookies[r'QCSession'],
+                    session.cookies[r'XSRF-TOKEN'])
+    req_headers = {r'Cookie': cookiestring, r'Accept': r'application/json'}
+    data = '''{"Fields":[{"Name":"status","values":[{"value":"%s"}]},
+                         {"Name":"iterations","values":[{"value":"%s"}]},
+                         {"Name":"user-01","values":[{"value":"%s"}]},
+                         {"Name":"user-04","values":[{"value":"%s"}]},
+                         {"Name":"user-03","values":[{"value":"%s"}]},
+                         {"Name":"exec-date","values":[{"value":"%s"}]},
+                         {"Name":"cycle-id","values":[{"value":"%s"}]},
+                         {"Name":"test-id","values":[{"value":"%s"}]},
+                         {"Name":"exec-time", "values": [{"value": "%s"}]},
+                         {"Name":"subtype-id","values":[{"value":"hp.qc.test-instance.MANUAL"}]},
+                         {"Name":"test-order","values":[{"value":"%s"}]}],"Type":"test-instance"}'''%\
+                        (case_info['status'],
+                         case_info['iterations'],
+                         case_info['hsd_id'],
+                         case_info['unit'],
+                         case_info['value'],
+                         case_info['exec_date'],
+                         case_info['test_set_id'],
+                         case_info['test_case_id'],
+                         case_info['exec-time'],
+                         case_info['test_case_order'])
 
-        req = urllib2.Request(url, data=data, headers=req_headers)
-        req.add_header('Content-Type', 'application/json')
-        response = urllib2.urlopen(req)
+    req = urllib2.Request(url, data=data, headers=req_headers)
+    req.add_header('Content-Type', 'application/json')
+    response = urllib2.urlopen(req)
 
 
 

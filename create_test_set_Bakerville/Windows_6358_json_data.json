@@ -1,0 +1,145 @@
+{
+    "Fields": [
+        {
+            "Name": "close-date", 
+            "values": []
+        }, 
+        {
+            "Name": "assign-rcyc", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "last-modified", 
+            "values": [
+                {
+                    "value": "2017-12-26 01:25:25"
+                }
+            ]
+        }, 
+        {
+            "Name": "status", 
+            "values": [
+                {
+                    "value": "Open"
+                }
+            ]
+        }, 
+        {
+            "Name": "cycle-config", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "request-id", 
+            "values": []
+        }, 
+        {
+            "Name": "exec-event-handle", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "open-date", 
+            "values": [
+                {
+                    "value": "2017-12-26"
+                }
+            ]
+        }, 
+        {
+            "Name": "attachment", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "mail-settings", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "subtype-id", 
+            "values": [
+                {
+                    "value": "hp.qc.test-set.default"
+                }
+            ]
+        }, 
+        {
+            "Name": "id", 
+            "values": [
+                {
+                    "value": "19630"
+                }
+            ]
+        }, 
+        {
+            "Name": "ver-stamp", 
+            "values": [
+                {
+                    "value": "1"
+                }
+            ]
+        }, 
+        {
+            "Name": "parent-id", 
+            "values": [
+                {
+                    "value": "6358"
+                }
+            ]
+        }, 
+        {
+            "Name": "os-config", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "description", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "name", 
+            "values": [
+                {
+                    "value": "Windows"
+                }
+            ]
+        }, 
+        {
+            "Name": "has-linkage", 
+            "values": [
+                {
+                    "value": "N"
+                }
+            ]
+        }, 
+        {
+            "Name": "pinned-baseline", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "report-settings", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "comment", 
+            "values": [
+                {}
+            ]
+        }
+    ], 
+    "Type": "test-set"
+}

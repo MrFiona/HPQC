@@ -6,8 +6,10 @@
 # Software: PyCharm Community Edition
 
 
+import os
 import re
 import json
+import time
 import urllib2
 from hpqc_parser import HPQCParser, HPQCCyclingParser, HPQCWHQLParser
 from hpqc_common_func import url_access_error_decorator
@@ -50,6 +52,7 @@ class HPQCQuery:
                 if not re.match('PnP',testset[1]):
                     jsonobj = self.enumerate_test_instance_private(testset[0], session)
                     if jsonobj == None:
+                        print 'error'
                         return None
                     ret = parser.ParseTestInstance(jsonobj)
                     if ret:
@@ -83,8 +86,10 @@ class HPQCQuery:
                 f_case.write(' '*10 +'1 => ' + str(test_case_num_list[0]) + '\t' + test_case_name_list[0] + '\n')
                 for line_num in range(1, len(test_case_num_list)):
                     f_case.write(' '*10 + '%d => ' % (line_num+1) + str(test_case_num_list[line_num]) + '\t' + test_case_name_list[line_num] + '\n')
+                time.sleep(0.01)
                 for line in range(len(test_case_num_list)):
                     f_case_combine.write(path + '/' + str(test_case_num_list[line]) + '/' + test_case_name_list[line] + '\n')
+                time.sleep(0.01)
             if testsets == None:
                 return  None
             return testsets
@@ -147,7 +152,7 @@ class HPQCQuery:
 
     #todo 获取test-lab指定test-set下的所有的test-case id以及名称  parent_folder为目录的id
     # @url_access_error_decorator('enumerate_test_instance_private')
-    def enumerate_test_instance_private(self, parent_folder, session):
+    def enumerate_test_instance_private(self, parent_folder, session, program_name='default', test_set_name='default'):
         try:
             url = r'%s/qcbin/rest/domains/dcg/projects/bkc/test-instances?fields=test.name&query={cycle-id[%d]}' % (
                 session.host, parent_folder)
@@ -158,9 +163,13 @@ class HPQCQuery:
             response = urllib2.urlopen(req)
             data = json.load(response)
             print 'instances:\t', data
-            # with open('%d_test_data_1.json' % parent_folder, 'w') as f:
-            #     json.dump(data, f, sort_keys=True, indent=4)
-            #     f.write(data)
+
+            if program_name != 'default' and test_set_name != 'default':
+                if not os.path.exists('create_test_case_' + program_name):
+                    os.makedirs('create_test_case_' + program_name)
+
+                with open('create_test_case_' + program_name + os.sep + '%s_test_case_json_data.json' % test_set_name, 'w') as f:
+                    json.dump(data, f, sort_keys=True, indent=4)
             return data
         except IOError:
             return None
@@ -169,35 +178,51 @@ class HPQCQuery:
 
     #todo flag: 1--test-plan；0--test-lab 获取指定目录中的所有test-set id以及名称  parent_folder为目录的id
     @url_access_error_decorator('enumerate_test_set_private')
-    def enumerate_test_set_private(self, parent_folder, session,flag, print_error=True):
-        # try:
-            if flag == 0:
-                url = r'%s/qcbin/rest/domains/dcg/projects/bkc/test-sets?query={parent-id[%d]}' % (
-                    session.host, parent_folder)
-            else:
-                 url = r'%s/qcbin/rest/domains/dcg/projects/bkc/tests?query={parent-id[%d]}' % (
-                    session.host, parent_folder)
-            cookiestring = r'LWSSO_COOKIE_KEY=%s;QCSession=%s;XSRF-TOKEN=%s;Path=/' % \
-                           (session.token, session.cookies[r'QCSession'], session.cookies[r'XSRF-TOKEN'])
-            req_headers = {r'Cookie': cookiestring, r'Accept': r'application/json'}
-            req = urllib2.Request(url, data=None, headers=req_headers)
-            response = urllib2.urlopen(req)
-            jsonobj = json.load(response)
-            sets = []
-            for entity in jsonobj[r'entities']:
-                name = ''
-                id = 0
-                for field in entity['Fields']:
-                    if field['Name'] == 'id':
-                        id = int(field['values'][0]['value'])
-                    if field['Name'] == 'name':
-                        name = field['values'][0]['value']
-                sets.append((id, name))
-            return sets
-        # except IOError:
-        #     return None
-        # except Exception:
-        #     return None
+    def enumerate_test_set_private(self, parent_folder, session, flag, print_error=True, save_data=False, program_name='default'):
+        if flag == 0:
+            url = r'%s/qcbin/rest/domains/dcg/projects/bkc/test-sets?query={parent-id[%d]}' % (
+                session.host, parent_folder)
+        else:
+             url = r'%s/qcbin/rest/domains/dcg/projects/bkc/tests?query={parent-id[%d]}' % (
+                session.host, parent_folder)
+        cookiestring = r'LWSSO_COOKIE_KEY=%s;QCSession=%s;XSRF-TOKEN=%s;Path=/' % \
+                       (session.token, session.cookies[r'QCSession'], session.cookies[r'XSRF-TOKEN'])
+        req_headers = {r'Cookie': cookiestring, r'Accept': r'application/json'}
+        req = urllib2.Request(url, data=None, headers=req_headers)
+        response = urllib2.urlopen(req)
+        jsonobj = json.load(response)
+
+        #todo 接口类型字符串
+        if flag == 1:
+            label_string = 'test_plan'
+        elif flag == 0:
+            label_string = 'test_lab'
+        else:
+            label_string = 'unknown'
+
+        #todo 兼容功能 json格式保存数据
+        if save_data and program_name != 'default':
+            if not os.path.exists(program_name + '_%s_test_set_info' % label_string):
+                os.makedirs(program_name + '_%s_test_set_info' % label_string)
+
+        sets = []
+        for entity in jsonobj[r'entities']:
+            name = ''
+            id_num = 0
+            for field in entity['Fields']:
+                if field['Name'] == 'id':
+                    id_num = int(field['values'][0]['value'])
+                if field['Name'] == 'name':
+                    name = field['values'][0]['value']
+            sets.append((id_num, name))
+
+            #todo 兼容功能 json格式保存数据
+            if save_data and program_name != 'default':
+                with open(program_name + '_%s_test_set_info' % label_string + os.sep +
+                        'test_set_%s_%s_json_data.json' %(name, str(id_num)), 'wb') as p:
+                    json.dump(jsonobj, p, sort_keys=True, indent=4)
+
+        return sets
 
     #todo flag: 1--test-plan；0--test-lab 获取项目中的目录id以及名称信息 parent为id
     @url_access_error_decorator('enumerate_folder_private')
@@ -393,10 +418,10 @@ if __name__ == '__main__':
     # result = parser.ParseTestInstance(json_obj)
     # print 'result:\t', result
 
-    # f_case = open(os.getcwd() + os.sep + 'test_lab' + os.sep + 'result_test_case_info_test_NFVi_2017WW38-WW39.txt', 'w')
-    # f_case_combine = open(os.getcwd() + os.sep + 'test_lab' + os.sep + 'test_case_combine_test_NFVi_2017WW38-WW39.txt', 'w')
-    # query.enumerate_pnp_case_plan(f_case, f_case_combine, 'Bakerville/2016WW47/BKC', session, flag=0)
-    # query.enumerate_pnp_case_plan(f_case, f_case_combine, 'Subject/Bakerville/Bakerville_PO(Outofdate)/PO_Test_Plan/P1', session, flag=1)
+    f_case = open(os.getcwd() + os.sep + 'test_lab' + os.sep + 'result_test_case_info_test_NFVi_2017WW38-WW39.txt', 'w')
+    f_case_combine = open(os.getcwd() + os.sep + 'test_lab' + os.sep + 'test_case_combine_test_NFVi_2017WW38-WW39.txt', 'w')
+    query.enumerate_pnp_case_plan(f_case, f_case_combine, 'Bakerville/2016WW47/BKC', session, flag=0)
+    query.enumerate_pnp_case_plan(f_case, f_case_combine, 'Subject/Purley_FPGA/TCD_Candidate/Linux(Outofdate)/P1/Stress', session, flag=1)
 
     # recursive_get_program_test_case_or_test_sets(query, f_case, f_case_combine, 'NFVi', session)
     # f_case.close()

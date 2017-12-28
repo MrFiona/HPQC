@@ -1,0 +1,4807 @@
+{
+    "TotalResults": 14, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526853"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "183"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />Verifies BitLocker encryption feature.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />TPM Feature is ready. </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">USB boot priority is Disabled in BIOS setup.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "13"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11878"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0_BitLocker_Encryption _W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:58:45"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526853"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526855"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "151"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />Verifies BitLocker Decryption feature.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />TPM Feature is ready.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "4"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11879"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0_BitLocker_Decryption_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 23:07:32"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526855"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526857"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "149"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies TPM device under Device Manager<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM Feature is ready. Clear ownership in BIOS<br />Please according following order to verify TPM1.2 cases:</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11880"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0_General Test_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:58:59"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526857"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526859"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "129"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />Verifies BIOS creates TPM2 table for TPM v2.0 module.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />TPM v2.0 module is connected to board.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11881"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0_ACPI table support for TPM v2.0_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:58:23"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526859"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526861"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "149"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR0 value will be changed between different BIOS version.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board.PCR reading tool is ready.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11882"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_PCR0_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:57:31"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526861"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526863"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "134"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR1 value will be changed after HW change.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board.PCR reading tool is ready.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11883"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_PCR1_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 23:27:49"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526863"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526865"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "144"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR4 value will be changed due to UEFI boot service change.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board.PCR reading tool is ready.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11884"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_PCR4_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:57:42"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526865"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526867"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "141"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR5 value will be changed due to boot order change.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board.PCR reading tool is ready.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11885"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_PCR5_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:57:54"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526867"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526869"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "181"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.36mm;margin-bottom:4.74mm;min-height:9pt\"><font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR value will NOT be changed during reboot cycles.&nbsp;</span></font></p> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board. PCR reading tool is ready.Connect PCIE card with OpROM to all PCIE slots.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.35mm;margin-bottom:4.73mm;min-height:2pt\"><font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font><font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font></p> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.35mm;margin-bottom:4.73mm;min-height:2pt\"><font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font></p> \n<div align=\"left\" style=\"min-height:9pt\"></div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "4"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11886"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_General_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:57:16"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526869"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526871"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "177"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />When a system performs trusted boot, BIOS performs measurements at various stages and stores them in PCR 0-7 (Platform config registers) in TPM. The PCR 0-7 values need to be consistent on each system from boot to boot. The values also need to be consistent on identically configured systems. If there is any change in the measurement, then it may indicate a malware attack. This is the premise in which trusted boot operates.&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM module is connected to board. PCR reading tool is ready.<br />USB flash disk with PCR reading tool is connected to SUT firstly.<br />PCR value can be read via EFI Tool or Tboot OS TPM file(such as \u2018cat /sys/class/misc/tpm0/device/pcrs\u2019)</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.36mm;margin-bottom:4.74mm;min-height:9pt\"><font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font></p> \n<div align=\"left\" style=\"min-height:9pt\"></div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "6"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11887"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value consistent check_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:58:07"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526871"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526873"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "184"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />PCR reading tool is ready.<br />USB flash disk with PCR reading tool is connected to SUT firstly.<br />PCR value can be read via EFI Tool or Tboot OS TPM file(such as \u2018cat /sys/class/misc/tpm0/device/pcrs\u2019).<br />Two baseboards flashed with exact same version BIOS are ready.&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.35mm;margin-bottom:4.73mm;min-height:9pt\"><font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font></p> \n<div align=\"left\" style=\"min-height:9pt\"></div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "9"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11888"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR0 consistence check on multiple boards_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 23:27:36"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526873"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526875"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "157"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verifies the PCR2 value will be changed due to (legacy) OpROM change.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Make sure onboard NIC card support legacy PXE boot.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM v2.0 module is connected to board.PCR reading tool is ready.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11889"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 PCR value check_PCR2_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-11-30 22:37:44"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526875"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526877"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "144"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />Verifies TPM Clear function.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />TPM Feature is ready.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11890"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0 Clear_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:57:05"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526877"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526887"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "177"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />Verifies BitLocker can detect and handle BIOS configuration change situation.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">TPM Feature is ready. </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">USB boot priority is Disabled in BIOS setup.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "9"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "3035"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11895"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TPM2.0_BitLocker_BIOS version change_UEFI_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:07:58"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "526887"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

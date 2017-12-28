@@ -7,7 +7,7 @@
 
 
 
-
+#todo 解析单个test_case json文件
 def HPQC_info_parser_tool(data):
     global_info_dict = {}
     info = data[u'entities'][0][u'Fields']

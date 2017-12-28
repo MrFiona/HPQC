@@ -44,11 +44,16 @@ class GetHPQCTestLabCase:
 
         if self.step_name.upper() == 'SILVER':
             steps = ['Daily', 'Silver']
+        elif len(self.step_name) == 0:
+            pass
         else:
             steps.append(self.step_name)
 
         for step in steps:
-            path = r'/%s/%s/%s' % (self.project_name, self.week_name, step)
+            if len(self.week_name) != 0 and len(self.step_name) != 0:
+                path = r'/%s/%s/%s' % (self.project_name, self.week_name, step)
+            else:
+                path = r'/%s/' % (self.project_name)
             print 'path:\t', path
             cases = self.query.enumerate_test_set_folder(path, self.session)
             if cases == None:
@@ -73,7 +78,7 @@ if __name__ == '__main__':
     host = r'https://hpalm.intel.com'
     session = Session(host, 'pengzh5x', 'QQ@08061635')
     query = HPQCQuery('DCG', 'BKC')
-    test_case = GetHPQCTestLabCase(host, session, query, 'Purley_4s', '2016', '2016WW18_TryRun')
+    test_case = GetHPQCTestLabCase(host, session, query, 'Bakerville', '', '')
     # test_case = GetHPQCTestLabCase(host, session, query, 'Purley_4s:2016WW18_TryRun', '2016', '')
     test_case.get_lab_case_info()
     print time.time() - start

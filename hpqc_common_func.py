@@ -22,8 +22,6 @@ def url_access_error_decorator(func_label_name):
             while 1:
                 try:
                     cmd = func(*args, **kwargs)
-                    # print 'args:\t', args
-                    # print 'kwargs:\t', kwargs
                 except URLError as e:
                     if hasattr(e, 'code'):
                         if kwargs.get('print_error', False):
@@ -33,6 +31,7 @@ def url_access_error_decorator(func_label_name):
                         if kwargs.get('print_error', False):
                             print 'func_label_name: %s, URLError occurred! We failed to reach a server. Reason: %s' \
                                   % (func_label_name, e.reason)
+                    print 'error occur'
                 except Exception:
                     if kwargs.get('print_error', False):
                         print 'Exception occurred!!!'

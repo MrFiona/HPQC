@@ -1,0 +1,85 @@
+{
+    "Fields": [
+        {
+            "Name": "id", 
+            "values": [
+                {
+                    "value": "6360"
+                }
+            ]
+        }, 
+        {
+            "Name": "no-of-sons", 
+            "values": []
+        }, 
+        {
+            "Name": "ver-stamp", 
+            "values": [
+                {
+                    "value": "2"
+                }
+            ]
+        }, 
+        {
+            "Name": "parent-id", 
+            "values": [
+                {
+                    "value": "6355"
+                }
+            ]
+        }, 
+        {
+            "Name": "assign-rcyc", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "last-modified", 
+            "values": [
+                {
+                    "value": "2017-12-26 01:24:02"
+                }
+            ]
+        }, 
+        {
+            "Name": "hierarchical-path", 
+            "values": [
+                {
+                    "value": "AAAAAYABAYABAAAAAAYABAYABAAAAAAYABAYABAAAAAAYABAYAAXAAAAAYABAYABAAAAAAYABAYABAAAAAAYABAYABAAAAAAZAAAAATAAAAAYABAYABAAAAAAZAAAAATAAAAAYABAYABAAAAAAYABAYABAAAAAAYABAYABAAAAAAZAAAAATAAAAAYABAYABAAAAAAZAAAAAUABEAAAAAEZAACAAE"
+                }
+            ]
+        }, 
+        {
+            "Name": "description", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "view-order", 
+            "values": []
+        }, 
+        {
+            "Name": "name", 
+            "values": [
+                {
+                    "value": "Silver"
+                }
+            ]
+        }, 
+        {
+            "Name": "attachment", 
+            "values": [
+                {}
+            ]
+        }, 
+        {
+            "Name": "workflow", 
+            "values": [
+                {}
+            ]
+        }
+    ], 
+    "Type": "test-set-folder"
+}

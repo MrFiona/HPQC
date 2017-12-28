@@ -1,0 +1,336 @@
+{
+    "TotalResults": 1, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517689"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "233"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Preparation: </span></font>\n</div> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Update to the latest formal release BIOS/BMC/FRUSDR</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Clear CMOS.&nbsp; </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Enter BIOS Setup, press F9 Default setting.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Install OS (RHEL 32 or 64 bit )&nbsp; (OB HDD Raid 0)</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Install all latest drivers</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Install one add in card per bus (Any gold card)</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Clear the SEL LOG before starting the test.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Copy the rebooter.pl script (Rebooter.zip embedded in chapter 1 above) to the UUT</span></font></li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> \n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:8mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Procedure:</b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"> </span></font>\n</div> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Open the terminal and make a directory /etc/boot using the command &quot;mkdir /etc/boot&quot;.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Copy &quot;rebooter.pl&quot; script to &quot;boot&quot; folder.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Make the file bootable: &quot;chmod +x rebooter.pl.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Add this line (file path), &quot;/etc/boot/rebooter.pl&quot; to last line of /etc/rc.local script, using vi editor.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Use ESC key to get out of text mode and save the file using &quot;:wq&quot; </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">This enables the script to launch after the system has just finished booting.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Reboot the system.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">If you choose to pause the reboot cycle: go in interactive mode to check boot count, or error checking, hit &quot;down arrow&quot; key as soon as kernel selection screen shows up.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;e&quot; key for edit and select second kernel line.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;e&quot; key and type &quot;single&quot; and then press &quot;enter&quot;.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;b&quot; key to boot to OS. System will boot to shell script mode. </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Check cycle count and errors in /etc/boot folder.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">To enter GUI mode, disable the /etc/boot/rebooter.pl line by adding # in front of it, from /etc/rc.local script using vi editor. Save the file.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Type init 5 to enter GUI mode.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">To continue the reboot test, enable again the /etc/boot/rebooter.pl line by removing # from its front. Save the file.</span></font></li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> \n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:8mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b><br /></b></span></font>\n</div>\n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Pass/Fail Criteria:&nbsp; </b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\">This test is considered a pass if the system cycles for 1000 cycles without any hang and there are no critical errors reported in SEL LOG and error logs.</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "ldeng5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "70"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11661"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_WarmBootCycling_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:00:41"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517689"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

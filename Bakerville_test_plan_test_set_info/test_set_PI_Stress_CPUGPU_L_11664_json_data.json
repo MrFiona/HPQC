@@ -1,0 +1,2332 @@
+{
+    "TotalResults": 7, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517687"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "207"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body>\n<div align=\"left\">\nThis is a general rule for S5 stress test configuration.\n</div>\n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "LDENG5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "70"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11660"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_ColdBootS5_UEFI"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:08:20"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517687"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517689"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "233"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Preparation: </span></font>\n</div> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Update to the latest formal release BIOS/BMC/FRUSDR</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Clear CMOS.&nbsp; </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Enter BIOS Setup, press F9 Default setting.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Install OS (RHEL 32 or 64 bit )&nbsp; (OB HDD Raid 0)</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Install all latest drivers</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Install one add in card per bus (Any gold card)</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Clear the SEL LOG before starting the test.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial'\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#000000;font-weight:normal;font-style:normal\">Copy the rebooter.pl script (Rebooter.zip embedded in chapter 1 above) to the UUT</span></font></li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> \n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:8mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Procedure:</b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"> </span></font>\n</div> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"list-style-type:none\"> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Open the terminal and make a directory /etc/boot using the command &quot;mkdir /etc/boot&quot;.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Copy &quot;rebooter.pl&quot; script to &quot;boot&quot; folder.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Make the file bootable: &quot;chmod +x rebooter.pl.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Add this line (file path), &quot;/etc/boot/rebooter.pl&quot; to last line of /etc/rc.local script, using vi editor.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Use ESC key to get out of text mode and save the file using &quot;:wq&quot; </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">This enables the script to launch after the system has just finished booting.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Reboot the system.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">If you choose to pause the reboot cycle: go in interactive mode to check boot count, or error checking, hit &quot;down arrow&quot; key as soon as kernel selection screen shows up.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;e&quot; key for edit and select second kernel line.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;e&quot; key and type &quot;single&quot; and then press &quot;enter&quot;.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Hit &quot;b&quot; key to boot to OS. System will boot to shell script mode. </span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Check cycle count and errors in /etc/boot folder.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">To enter GUI mode, disable the /etc/boot/rebooter.pl line by adding # in front of it, from /etc/rc.local script using vi editor. Save the file.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">Type init 5 to enter GUI mode.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">To continue the reboot test, enable again the /etc/boot/rebooter.pl line by removing # from its front. Save the file.</span></font></li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> </li> \n</ol> \n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:8mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b><br /></b></span></font>\n</div>\n<div align=\"left\" style=\"margin-left:13mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Pass/Fail Criteria:&nbsp; </b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\">This test is considered a pass if the system cycles for 1000 cycles without any hang and there are no critical errors reported in SEL LOG and error logs.</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "ldeng5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "70"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11661"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_WarmBootCycling_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:00:41"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517689"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517691"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "150"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> </i></span><span style=\"font-size:8pt\">BurnInTest tests the CPU via mathematical operations, hard drives, RAM, CD ROMs, DVDs, 2D graphics, 3D graphic, network connection,USB. This can all be done simultaneously as the application is multithreaded. </span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> </i></span></font>\n<font face=\"Arial Unicode MS\"><span style=\"font-size:8pt\">PassMark BurnInTest Linux\u2122 Ver3.2 or latest; </span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\">USB 3.0 Loopback plugs</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /><br /></span></font>\n</div>\n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "ldeng5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "48"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11662"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stress_BurnInTestAllCfg_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:01:21"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517691"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517693"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "197"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> </i></span><span style=\"font-size:8pt\">Stress the entire platform by running io ,memory and processor stress concurrently by Validatino Runner (stress-platform -t 12:0:0 -s 1)</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> RAID Mode.</i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i>Run IO on all drives and clients, memory stress on all processors, and processors stress on all processors concurrently with Validation Runner ( Stress-platform -t 12:0:0 -s 1) and run iperf testing in parallel.</i></span><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "ldeng5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "12"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11663"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stress_IOMemCPULOM_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-14 17:48:28"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517693"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517695"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "200"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i>&nbsp; use validation runner to stress processs and GPU at the same time </i></span></font>\n</div> \n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What co</i></span></font>\n<font face=\"Arial Unicode MS\"><span style=\"font-size:8pt\"><i>n</i></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i>ditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font> \n<div align=\"left\" style=\"min-height:9pt\"></div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<p style=\"margin-left:0mm;margin-right:0mm;text-indent:0mm;margin-top:2.38mm;margin-bottom:4.76mm;min-height:9pt\"><font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font></p> \n<div align=\"left\" style=\"min-height:9pt\"></div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "ldeng5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "12"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11664"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stress_CPUGPU_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-13 16:50:15"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517695"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517697"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "223"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> shutdown the DUT and power off, wait for 15 second and power on it. wait it booted to OS then repeat 1000 </i></span></font>\n<font face=\"Arial Unicode MS\"><span style=\"font-size:8pt\"><i>cycles to check system stability</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "lchen60"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "70"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11665"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_ColdBootG3_UEFI"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 17:11:30"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517697"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517699"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "153"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:12pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i>&nbsp;&nbsp; just let the system boot to OS and don't do any operation to check if system is stable after a </i></span></font>\n<font face=\"Arial Unicode MS\"><span style=\"font-size:8pt\"><i>long time</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> flashed with the latest BKC package </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "lchen60"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "12"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11666"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_Idle_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 16:39:35"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517699"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

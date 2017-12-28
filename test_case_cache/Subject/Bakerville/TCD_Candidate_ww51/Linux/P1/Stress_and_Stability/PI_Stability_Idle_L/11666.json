@@ -1,0 +1,348 @@
+{
+    "TotalResults": 1, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517699"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "153"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:12pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i>&nbsp;&nbsp; just let the system boot to OS and don't do any operation to check if system is stable after a </i></span></font>\n<font face=\"Arial Unicode MS\"><span style=\"font-size:8pt\"><i>long time</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:10pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> flashed with the latest BKC package </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2969"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "lchen60"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Stress & Stability"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "12"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Basin Falls"
+                        }, 
+                        {
+                            "value": "Greenlow-R"
+                        }, 
+                        {
+                            "value": "Purley 2S"
+                        }, 
+                        {
+                            "value": "Purley 4S"
+                        }, 
+                        {
+                            "value": "Purley FPGA"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11666"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Stability_Idle_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-11 16:39:35"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517699"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

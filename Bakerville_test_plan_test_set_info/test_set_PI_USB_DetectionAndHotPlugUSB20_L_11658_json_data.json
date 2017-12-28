@@ -1,0 +1,998 @@
+{
+    "TotalResults": 3, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517677"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "148"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Functional test of the rear panel USB ports:</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">1. Boot from USB key</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">2. Boot from DVD</span></font>\n</div> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3. USB3.0 HDD/Pen-drive detection, function and hot plug.</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2988"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "pwang8"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "USB"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11657"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_USB_RearPanel_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 23:01:22"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517677"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517679"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "132"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verify that:</span></font>\n</div> \n<ol style=\"margin-top:0mm;margin-bottom:0mm\"> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">USB2.0 devices are detected by OS correctly.</span></font></li> \n<li style=\"margin-right:0pt;padding-left:0pt;font-family:'arial';color:#010101\"><font face=\"Arial\"><span style=\"font-size:8pt;font-family:'arial';color:#010101;font-weight:normal;font-style:normal\">USB2.0 device hot plug works well</span></font></li> \n</ol>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "7"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2988"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "pwang8"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "USB"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.05"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.05"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11658"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_USB_DetectionAndHotPlugUSB20_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 22:31:39"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517679"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }, 
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517685"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "124"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Check USB2.0 hub and USB3.0 hub functionality</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Design"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2988"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "pwang8"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "USB"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.05"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11659"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_USB_USBHub_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 23:01:40"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517685"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

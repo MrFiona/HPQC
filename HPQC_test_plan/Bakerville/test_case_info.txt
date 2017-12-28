@@ -1,0 +1,298 @@
+
+Subject/Bakerville/TCD_Candidate_ww51/VMWare/Virtualization
+          1 => 11644	PI_VirtualizationLOMPass-through_V
+          2 => 11645	PI_VirtualizationDevicesDriverUpdate_V
+          3 => 11646	PI_VirtualizationEnableIntelNetworkingdriverForVMDQ_V
+          4 => 11647	PI_VirtualizationStoragePass-through_V
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/GFX
+          1 => 11629	GFX_resolution_checkout_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Storage
+          1 => 11731	PI_Storage_OSInstallationOnSATARAID_W
+          2 => 11732	PI_Storage_SATAAHCIConfigCheck_W
+          3 => 11733	PI_Storage_SATAAHCILinkSpeedCheck_W
+          4 => 11734	PI_Storage_BootingToNVMe_W
+          5 => 11735	PI_Storage_EfiRAID_sSATA_W
+          6 => 11736	PI_Storage_LegacyRAID_RAIDConfiguration_W
+          7 => 11737	PI_Storage_BootingToNVMe_VMD_W
+          8 => 11738	PI_Storage_RSTeEfiRAID_VMD_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Processor
+          1 => 11616	PI_Processor_CPUInfo_W
+          2 => 11704	PI_Processor_LinPack_Stress_W
+          3 => 11705	PI_Processor_IntelBurnTest_Stress_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/PCIe
+          1 => 11862	PI_PCIe_GPGPUAPModelPowerManagement_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/GFX
+          1 => 11628	GFX_resolution_checkout_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/USB
+          1 => 11657	PI_USB_RearPanel_L
+          2 => 11658	PI_USB_DetectionAndHotPlugUSB20_L
+          3 => 11659	PI_USB_USBHub_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/PCIe
+          1 => 11690	PI_PCIe_PCIModelAvailability_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/PCIe
+          1 => 11691	PI_PCIe_PCIModelAvailability_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/QAT
+          1 => 11761	PI_QAT_QAT_installation_L
+          2 => 11762	PI_QAT_StatusCheck_L
+          3 => 11763	PI_QAT_signOfLifeTests_UserSpace_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Virtualization
+          1 => 11896	PI_Virtualization_KVMBasicFunctionality_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/PCIe
+          1 => 11865	PI_PCIe_GPGPUAPModelPowerManagement_W
+          2 => 11866	PI_PCIe_GPGPUAPModelDriverInstallUninstall_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Processor
+          1 => 11615	PI_Processor_CPUInfo_L
+          2 => 11703	PI_Processor_Prime95_Stress_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Networking
+          1 => 11680	PI_Networking_FortPark_DriverInstallUninstall_W
+          2 => 11686	PI_Networking_JacksonVille_DriverInstallUninstall_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/DPDK
+          1 => 11630	PI_DPDK_PollingModeDriver_L
+          2 => 11631	PI_DPDK_TrafficGenerator_L
+          3 => 11632	PI_DPDK_VFIO_L
+          4 => 11633	PI_DPDK_DTS_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Stress_and_Stability
+          1 => 11740	PI_Stability_WarmBootCycling_W
+          2 => 11741	PI_Stress_BurnInTestAllCfg_W
+          3 => 11742	PI_Stress_IOMemCPULOM_W
+          4 => 11743	PI_Stress_CPUGPU3DMark_W
+          5 => 11745	PI_Stability_Idle_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Virtualization
+          1 => 11902	PI_Virtualization_HyperVBasicFunctionality_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Networking
+          1 => 11635	PI_Networking_JacksonVille_DriverInstallUninstall_L
+          2 => 11641	PI_Networking_FortPark_DriverInstallUninstall_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Networking
+          1 => 11847	PI_Networking_JacksonVille_ConnectivityEnableDisable_W
+          2 => 11848	PI_Networking_JacksonVille_LinkLED_W
+          3 => 11849	PI_Networking_FortPark_SRIOV_W
+          4 => 11850	PI_Networking_FortPark_ConnectivityEnableDisable_W
+          5 => 11852	PI_Networking_FortPark_LinkLED_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/Storage
+          1 => 11652	PI_Storage_RAID_sSATA_L
+          2 => 11653	PI_Storage_SATAAHCIConfigCheck_L
+          3 => 11654	PI_Storage_SATAAHCILinkSpeedCheck_L
+          4 => 11655	PI_Storage_BootingToVMD_RHEL_L
+          5 => 11656	PI_Storage_RAID_VMD_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/RAS
+          1 => 11706	PI_RAS_Faulty DIMM Isolation with legacy MCA mode_W_S_SYS01
+          2 => 11707	PI_RAS_Command and Address Parity Error Injection_W_R_MEM06
+          3 => 11708	PI_RAS_Error reporting_AER_PCIe_S_CPU10
+          4 => 11709	PI_RAS_Error reporting_Memory Correctable Error_W
+          5 => 11710	PI_RAS_Memory SDDC_W_R_MEM01
+          6 => 11711	PI_RAS_Memory Patrol Scrubbing_W_R_MEM08
+          7 => 15836	PI_RAS_Memory Demand Scrubbing_W_R_MEM08
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/Virtualization
+          1 => 11624	PI_Virtualization_KVMStress_L
+          2 => 11625	PI_Virtualization_SR-IOVFunctionCheck_L
+          3 => 11626	PI_Virtualization_PassThroughUSB_L
+          4 => 11627	PI_Virtualization_PassThroughNetwork_L
+          5 => 11764	PI_Virtualization_MaximumSR-IOVGenerate_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/USB
+          1 => 11752	PI_USB_RearPanel_W
+          2 => 11753	PI_USB_DetectionAndHotPlugUSB20_W
+          3 => 11754	PI_USB_USBHub_W
+          4 => 11755	PI_USB_USB3BenchmarkingBackwardsCompatibility_W
+          5 => 11756	PI_USB_USB3BulkTransferReliabilityBackwardsCompatibility_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Virtualization
+          1 => 11747	PI_Virtualization_HyperVStress_W
+          2 => 12052	PI_Virtualization_MaximumVMDQGenerate_W
+          3 => 12053	PI_Virtualization_VMDQFunctionCheck_W
+          4 => 12054	PI_Virtualization_PassThroughUSB_W
+          5 => 12055	PI_Virtualization_PassThroughNetwork_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Stress_and_Stability
+          1 => 11660	PI_Stability_ColdBootS5_UEFI
+          2 => 11661	PI_Stability_WarmBootCycling_L
+          3 => 11662	PI_Stress_BurnInTestAllCfg_L
+          4 => 11663	PI_Stress_IOMemCPULOM_L
+          5 => 11664	PI_Stress_CPUGPU_L
+          6 => 11665	PI_Stability_ColdBootG3_UEFI
+          7 => 11666	PI_Stability_Idle_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/Networking
+          1 => 11854	PI_Networking_FortPark_ConnectivityEnableDisable_L
+          2 => 11856	PI_Networking_FortPark_SRIOVCheckDevice_L
+          3 => 11857	PI_Networking_JacksonVille_LinkLED_L
+          4 => 11858	PI_Networking_FortPark_BondingFaultTolerance_L
+          5 => 11859	PI_Networking_JacksonVille_ConnectivityEnableDisable_L
+          6 => 11861	PI_Networking_FortPark_LinkLED_L
+          7 => 13237	PI_Networking_FortPark_PXE_L
+          8 => 13238	PI_Networking_JacksonVille_PXE_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Power Management
+          1 => 11694	PI_Powermanagement_ForceShutdown_W
+          2 => 11695	PI_Powermanagement_WakeupS5ByRTC_W
+          3 => 11697	PI_Powermanagement_WakeupS4ByRTC_W
+          4 => 11698	PI_Powermanagemen_Cstate_SoCwatch_W
+          5 => 11699	PI_Powermanagemen_Pstate_SoCwatch_W
+          6 => 11700	PI_Powermanagemen_Turbo_SoCwatch_W
+          7 => 11701	PI_Powermanagement_S4StateCheck_W
+          8 => 11702	PI_Powermanagement_Graceful_Shutdown_W
+          9 => 13057	PI_Powermanagement_AC_10cycles_W
+          10 => 13058	PI_Powermanagement_DC_10cycles_W
+          11 => 13059	PI_Powermanagement_Reboot_10cycles_W
+          12 => 13060	PI_Powermanagement_S4_10cycles_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Power Management
+          1 => 11611	PI_Powermanagement_ForceShutdown_L
+          2 => 11648	PI_Powermanagement_WakeupS4ByRTC_L
+          3 => 11649	PI_Powermanagement_WakeupS5ByRTC_L
+          4 => 11650	PI_Powermanagement_S4StateCheck_L
+          5 => 11651	PI_Powermanagement_Graceful_Shutdown_L
+          6 => 11758	PI_Powermanagemen_Cstate_SoCwatch_L
+          7 => 11759	PI_Powermanagemen_Pstate_SoCwatch_L
+          8 => 11760	PI_Powermanagemen_Turbo_SoCwatch_L
+          9 => 13049	PI_Powermanagement_AC_10cycles_L
+          10 => 13050	PI_Powermanagement_DC_10cycles_L
+          11 => 13051	PI_Powermanagement_Reboot_10cycles_L
+          12 => 13052	PI_Powermanagement_S4_10cycles_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Manageability/SPS
+          1 => 11836	PI_Manageability_SPS_NM_PTStates_O
+          2 => 11839	PI_Manageability_SPS_Tools_MESDC_W
+          3 => 11843	PI_Manageability_SPS_SiEn_PowerFlows_G3Moff_S0M0_O
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Memory/DDR4
+          1 => 11613	PI_Memory_DDR4_MemoryInfo_L
+          2 => 11614	PI_Memory_DDR4_DIMMMaximumMemory_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/WHQL
+          1 => 19819	TPM 2.0 - Cryptographic Operations and RNG
+          2 => 19820	TPM 2.0 Core Provisioning Test
+          3 => 19821	Boot Test (SYSTEM)
+          4 => 19822	TPM 2.0 Quality Test
+          5 => 19823	System - Embedded Signature Verification
+          6 => 19824	Watchdog Timer Test
+          7 => 19825	TPM 2.0 - NV Storage, Policy, Error Handling and Attestation
+          8 => 19826	USB3 Termination
+          9 => 19827	Disk Stress (SYSTEM)
+          10 => 19829	BitLocker Drive Encryption USB BIOS Logo Test
+          11 => 19830	TPM 2.0 - Raw Mode Commands
+          12 => 19831	TPM 2.0 - Required Security Patches Tests
+          13 => 19832	Debug Capability Test (Logo)
+          14 => 19833	TPM Platform Crypto Provider Key Storage Provider Test
+          15 => 19834	TPM 2.0 UEFI Preboot Interface Test
+          16 => 19835	Verify IOMMU presence and configuration
+          17 => 19836	TPM 2.0 - Reliability
+          18 => 19837	TPM 2.0 TCG Physical Presence Interface 1.3 Test
+          19 => 19838	Clock Interrupt Test
+          20 => 19839	xHCI Debug Capability Compliance (Logo)
+          21 => 19840	WDDM PnPStop Test - Update and Rollback
+          22 => 19841	TPM Extend Operation Performance
+          23 => 19842	WGF Feature Level 9.3 Support
+          24 => 19843	WDDM PnPStopModeSwitch Test
+          25 => 19844	TPM 2.0 - Supplemental test
+          26 => 19845	QPC Validation Test
+          27 => 19846	WGF Feature Level 9.3 Support (WoW64)
+          28 => 19847	Windows Client System Check For WDDM 1.3 Display Driver Support
+          29 => 19848	TPM 2.0 - Stress
+          30 => 19849	System - Sleep with IO Before and After (Reliability SysFund)
+          31 => 19850	Signed Driver Check (CheckLogo)
+          32 => 19851	Verify virtualized environment
+          33 => 19852	System - PNP (disable and enable) with IO Before and After (Reliability)
+          34 => 19853	LoadGen Server Stress - Run First - Set Machine Policies
+          35 => 19854	Profile Interrupt Test
+          36 => 19855	KeDelayExecutionThread Test
+          37 => 19856	TPM 2.0 - Self Test
+          38 => 19857	TPM Based Virtual Smart Card Interface Test
+          39 => 19858	TPM 2.0 - Functional
+          40 => 19859	TPM Attestation Test
+          41 => 19860	LoadGen Server Stress - Run Last - Reset Machine Policies
+          42 => 19861	Secure Boot Logo Test
+          43 => 19862	USB Exposed Port System Test
+          44 => 19863	Verify processor virtualization support
+          45 => 19864	Secure Boot Manual Logo Test
+          46 => 19865	BitLocker Tpm+PIN+ USB and Recovery Password tests for NON ARM devices
+          47 => 19866	Crashdump Support Test (LOGO)
+          48 => 19867	Windows System Check For WDDM
+          49 => 19868	Verify Device Driver Is WDDM
+          50 => 19869	TPM 2.0 - Clock Tests
+          51 => 19870	Boot from USB (ServerOperating System)
+          52 => 19875	LoadGen Server Stress - Start Test for Server
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Manageability/SPS
+          1 => 11667	PI_Manageability_SPS_NM_PowerStatistics_O
+          2 => 11668	PI_Manageability_SPS_NM_PolicyPowerLimit_O
+          3 => 11670	PI_Manageability_SPS_NM_CUPS_O
+          4 => 11671	PI_Manageability_SPS_Tools_FPTandFIT_W
+          5 => 11673	PI_Manageability_SPS_Tools_SPSInfo_O
+          6 => 11674	PI_Manageability_SPS_Tools_SPSManuf_O
+          7 => 11677	PI_Manageability_SPS_NM_ACPI40_OSPM_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Security/TXT based on PTT
+          1 => 11775	PI_Security_TXT_PTT_Trusted Boot_measured launch_in_RHEL7.2_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Memory/DDR4
+          1 => 11678	PI_Memory_DDR4_MemoryInfo_W
+          2 => 11679	PI_Memory_DDR4_DIMMMaximumMemory_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P2/Security/PPIx
+          1 => 11868	PI_Security_PPIx_UC1_Discover_TXT_TPM_Status_L
+          2 => 11869	PI_Security_PPIx_UC11_Enable_TXT_PTT_L
+          3 => 11870	PI_Security_PPIx_UC12_PTT_Owner_Clear_Only_L
+          4 => 11871	PI_Security_PPIx_UC13_PTT_Clear_and_PTT_Activation_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/Security/Security Boot
+          1 => 11730	PI_Security_Security_Boot_OS_Install_Boot_Check_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Security/Security Boot
+          1 => 11713	PI_Security_Security_Boot_OS_Install_Boot_Check_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Security/PTT
+          1 => 11891	PI_Security_PTT_General Test_W
+          2 => 11892	PI_Security_PTT_Enable_W
+          3 => 11893	PI_Security_PTT_Clear_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Linux/P1/Security/TXT based on TPM2.0
+          1 => 11770	PI_Security_TXT_TPM2.0_Simple Provisioning [PS AUX Index]_L
+          2 => 11771	PI_Security_TXT_TPM2.0_GETSEC_L
+          3 => 11772	PI_Security_TXT_TPM2.0_SECRETS_L
+          4 => 11773	PI_Security_TXT_TPM2.0_TXTINFO_L
+          5 => 11774	PI_Security_TXT_TPM2.0_Trusted Boot_measured launch_in_RHEL7.2_L
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P2/Security/TPM2.0
+          1 => 11878	PI_Security_TPM2.0_BitLocker_Encryption _W
+          2 => 11879	PI_Security_TPM2.0_BitLocker_Decryption_W
+          3 => 11880	PI_Security_TPM2.0_General Test_W
+          4 => 11881	PI_Security_TPM2.0_ACPI table support for TPM v2.0_W
+          5 => 11882	PI_Security_TPM2.0 PCR value check_PCR0_W
+          6 => 11883	PI_Security_TPM2.0 PCR value check_PCR1_W
+          7 => 11884	PI_Security_TPM2.0 PCR value check_PCR4_W
+          8 => 11885	PI_Security_TPM2.0 PCR value check_PCR5_W
+          9 => 11886	PI_Security_TPM2.0 PCR value check_General_W
+          10 => 11887	PI_Security_TPM2.0 PCR value consistent check_W
+          11 => 11888	PI_Security_TPM2.0 PCR0 consistence check on multiple boards_W
+          12 => 11889	PI_Security_TPM2.0 PCR value check_PCR2_W
+          13 => 11890	PI_Security_TPM2.0 Clear_W
+          14 => 11895	PI_Security_TPM2.0_BitLocker_BIOS version change_UEFI_W
+
+Subject/Bakerville/TCD_Candidate_ww51/Windows/P1/WHQL/Azure Additional Tests
+          1 => 19828	Assurance AQ
+          2 => 19871	IPMIReliability
+          3 => 19872	IPMI
+          4 => 19873	SecureBootUEFI
+          5 => 19874	SecureBootUEFIOverPXE

@@ -1,0 +1,336 @@
+{
+    "TotalResults": 1, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517933"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "130"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Description:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (Objective of what you are trying to test.)</i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Auto-provisioning .nsh file usage. Execute the following from EFI shell.<br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Preconditions:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What conditions must be met or data must exist in the system for this test to be executed?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp; 1. Install a TPM 2.0 module on your platform.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LPC header is natively supported on the Grantley and Brickland platforms.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPI support is available on Grantley by following this tutorial here. [insert link]</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Purley systems natively use onboard SPI based TPM 2.0</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp; 2. Verify that TPM 2.0 is seen in your platform's BIOS menu, under TrEE configuration and 2.0 (vs 1.2) is selected as TPM type.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp; 3. Copy the following tools to your flash drive:</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TPM2Prov</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The latest TPM2.0 provisioning tool should be downloaded from CDI. Go to CDI general library and search on TPM and download the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;most recent version of 'Windows TPM 2 Provisioning Tool for Intel&reg; Trusted Execution Technology for the OEM'</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIV Internal Use ONLY file://dpvfs.amr.corp.intel.com/vsv-share/tools/txt-test-tools/TPM/TPM2.0] - CDI last updated 09-19-2015</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp; </span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp; 4. Boot to EFI shell and map USB drive.</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Test Data:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (What test data is required to execute the test case?) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br />&nbsp;</span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Security:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (List any profiles that will be used to run this test case.) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><br /></span></font>\n<p></p> \n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\" color=\"#ff0000\"><span style=\"font-size:8pt\"><b><u>Downstream Impacts:</u></b></span></font>\n<font face=\"Arial\"><span style=\"font-size:8pt\"><i> (triggers required or created by test) </i></span></font>\n</div> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2978"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "xiangli3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "Security"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "0.5"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11770"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_Security_TXT_TPM2.0_Simple Provisioning [PS AUX Index]_L"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 17:55:12"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517933"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}

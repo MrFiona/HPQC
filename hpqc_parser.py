@@ -210,3 +210,13 @@ class HPQCWHQLParser:
 
         except IOError:
             pass
+
+
+import json
+with open(r'C:\Users\pengzh5x\Desktop\machine_scripts\HPQC\Bakerville_test_plan_test_set_info\test_set_Assurance AQ_19828_json_data.json', 'rb') as f:
+    data = json.load(f)
+
+from _hpqc_parser_tool import HPQC_info_parser_tool
+
+test = HPQC_info_parser_tool(data)
+print test

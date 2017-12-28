@@ -1,0 +1,336 @@
+{
+    "TotalResults": 1, 
+    "entities": [
+        {
+            "Fields": [
+                {
+                    "Name": "estimate-devtime", 
+                    "values": []
+                }, 
+                {
+                    "Name": "vc-checkin-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-start-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517755"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "ver-stamp", 
+                    "values": [
+                        {
+                            "value": "189"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "description", 
+                    "values": [
+                        {
+                            "value": "<html><body> \n<div align=\"left\" style=\"margin-left:3mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Verify PCI bus function:</span></font>\n</div> \n<div align=\"left\" style=\"margin-left:3mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">After populating add-in card, the SUT can enter OS correctly, the linkspeed is expected and the new Wake feature can work. Including onboard slot and riser/carrier slot.</span></font>\n</div> \n<div align=\"left\" style=\"margin-left:3mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;</span></font>\n</div> \n<div style=\"margin-left:1mm\"> \n<table width=\"693\" cellpadding=\"2\" cellspacing=\"0\" style=\"table-layout:fixed;border-collapse:collapse;border:none\"> \n<colgroup> \n<col width=\"67\" />\n</colgroup> \n<colgroup>\n<col width=\"60\" />\n</colgroup> \n<colgroup>\n<col width=\"227\" />\n</colgroup> \n<colgroup>\n<col width=\"210\" />\n</colgroup> \n<colgroup>\n<col width=\"190\" />\n</colgroup>  \n<tbody>\n<tr> \n<td align=\"center\" valign=\"top\" width=\"63\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"56\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"223\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Table 1: Typical_PCI_Device_Matrix</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"206\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"186\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"right\" valign=\"top\" width=\"62\" style=\"border-left:solid #646464 2px;border-right:solid #646464 1px;border-top:solid #646464 2px;border-bottom:solid #646464 1px\"> \n<div align=\"right\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"55\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 2px;border-bottom:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x1</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"222\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 2px;border-bottom:solid #646464 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x4</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"205\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 2px;border-bottom:solid #646464 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x8</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"185\" style=\"border-left:solid #646464 1px;border-right:solid #646464 2px;border-top:solid #646464 2px;border-bottom:solid #646464 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x16</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"62\" style=\"border-left:solid #646464 2px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">PCI-e1.0</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"55\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"222\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"205\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"185\" style=\"border-left:solid #646464 1px;border-right:solid #646464 2px;border-top:solid #646464 1px;border-bottom:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"62\" style=\"border-left:solid #646464 2px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">PCI-e2.0</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"55\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"222\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"205\" style=\"border:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"185\" style=\"border-left:solid #646464 1px;border-right:solid #646464 2px;border-top:solid #646464 1px;border-bottom:solid #646464 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"62\" style=\"border-left:solid #646464 2px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">PCI-e3.0</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"55\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">No test</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"222\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">PCIeSSD Intel P3700 800GB</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"205\" style=\"border-left:solid #646464 1px;border-right:solid #646464 1px;border-top:solid #646464 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">NIC Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"185\" style=\"border-left:solid #646464 1px;border-right:solid #646464 2px;border-top:solid #646464 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">GPGPU Nvidia Quadro K620</span></font>\n</div> </td>\n</tr> \n</tbody>\n</table> \n</div> \n<div align=\"left\" style=\"margin-left:1mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\"></div> \n<div align=\"left\" style=\"margin-left:1mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\"></div> \n<div align=\"left\" style=\"margin-left:1mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\"></div> \n<div align=\"left\" style=\"margin-left:3mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;</span></font>\n</div> \n<table width=\"603\" cellpadding=\"2\" cellspacing=\"0\" style=\"table-layout:fixed;border-collapse:collapse;border:none\"> \n<colgroup> \n<col width=\"135\" />\n</colgroup> \n<colgroup>\n<col width=\"68\" />\n</colgroup> \n<colgroup>\n<col width=\"56\" />\n</colgroup> \n<colgroup>\n<col width=\"45\" />\n</colgroup> \n<colgroup>\n<col width=\"186\" />\n</colgroup> \n<colgroup>\n<col width=\"186\" />\n</colgroup>  \n<tbody>\n<tr> \n<td align=\"right\" valign=\"top\" width=\"131\" style=\"border:solid #010101 0px\"> \n<div align=\"right\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"right\" valign=\"top\" width=\"64\" style=\"border:solid #010101 0px\"> \n<div align=\"right\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"52\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"41\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"182\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Table 2: Slot Test Matrix</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"182\" style=\"border:solid #010101 0px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"center\" valign=\"top\" width=\"130\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>TCD - PCI Subsystem</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"63\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Location</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Width</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Gen</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>PCI.Model.Availability</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #646464 2px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>PCI.Model.Performance</b></span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#339966\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 2</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU0</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x16</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K5200</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K620</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#99ccff\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 1</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU0</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x8</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#ffff99\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 3</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#ffff99\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>PCH</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#ffff99\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x4</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#ffff99\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#ffff99\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel P3700 800GB</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel P3700 800GB</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#339966\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 4</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU1</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x16</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K5200</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K620</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#339966\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 8</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU1</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x16</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K5200</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#339966\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Nvidia Quadro K620</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#99ccff\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 5</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU1</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x8</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#99ccff\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 7</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU1</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x8</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#99ccff\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #c0c0c0 1px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel&reg; Ethernet Adapter X710</span></font>\n</div> </td>\n</tr> \n<tr> \n<td align=\"left\" valign=\"top\" width=\"130\" bgcolor=\"#ffff99\" style=\"border-left:solid #646464 2px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>Slot 6</b></span></font>\n</div> </td> \n<td align=\"left\" valign=\"top\" width=\"63\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"left\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\"><b>CPU1</b></span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"51\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">x4</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"40\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">3</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #c0c0c0 1px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel P3700 800GB</span></font>\n</div> </td> \n<td align=\"center\" valign=\"top\" width=\"181\" bgcolor=\"#ffff99\" style=\"border-left:solid #c0c0c0 1px;border-right:solid #646464 2px;border-top:solid #c0c0c0 1px;border-bottom:solid #646464 2px\"> \n<div align=\"center\" style=\"min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">Intel P3700 800GB</span></font>\n</div> </td>\n</tr> \n</tbody>\n</table> \n<div align=\"left\" style=\"margin-left:3mm;margin-right:0mm;text-indent:0mm;margin-top:0mm;margin-bottom:0mm;min-height:9pt\">\n<font face=\"Arial\"><span style=\"font-size:8pt\">&nbsp;&nbsp;</span></font>\n</div>  \n</body></html>"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "dev-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-version-number", 
+                    "values": []
+                }, 
+                {
+                    "Name": "template", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "status", 
+                    "values": [
+                        {
+                            "value": "Ready"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-dependencies", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "steps", 
+                    "values": [
+                        {
+                            "value": "3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "runtime-data", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "check-out-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "parent-id", 
+                    "values": [
+                        {
+                            "value": "2998"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-date", 
+                    "values": []
+                }, 
+                {
+                    "Name": "owner", 
+                    "values": [
+                        {
+                            "value": "pwang8"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-05", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-04", 
+                    "values": [
+                        {
+                            "value": "PCIe"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-03", 
+                    "values": [
+                        {
+                            "value": "0.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-02", 
+                    "values": [
+                        {
+                            "value": "0.3"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-01", 
+                    "values": [
+                        {
+                            "value": "1.2"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-time", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "base-test-id", 
+                    "values": []
+                }, 
+                {
+                    "Name": "user-09", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-08", 
+                    "values": [
+                        {
+                            "value": "Bakerville"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "storage-path", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "user-07", 
+                    "values": [
+                        {
+                            "value": "P1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "configurations-count", 
+                    "values": [
+                        {
+                            "value": "1"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-06", 
+                    "values": []
+                }, 
+                {
+                    "Name": "id", 
+                    "values": [
+                        {
+                            "value": "11691"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "name", 
+                    "values": [
+                        {
+                            "value": "PI_PCIe_PCIModelAvailability_W"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "has-linkage", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-status", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "has-criteria", 
+                    "values": [
+                        {
+                            "value": "N"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-user-name", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "creation-time", 
+                    "values": [
+                        {
+                            "value": "2016-12-11"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-10", 
+                    "values": []
+                }, 
+                {
+                    "Name": "last-modified", 
+                    "values": [
+                        {
+                            "value": "2017-12-10 18:15:02"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "user-11", 
+                    "values": []
+                }, 
+                {
+                    "Name": "attachment", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "subtype-id", 
+                    "values": [
+                        {
+                            "value": "MANUAL"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-end-audit-action-id", 
+                    "values": [
+                        {
+                            "value": "517755"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "exec-status", 
+                    "values": [
+                        {
+                            "value": "Passed"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "vc-checkin-comments", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "step-param", 
+                    "values": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }, 
+                {
+                    "Name": "text-sync", 
+                    "values": [
+                        {}
+                    ]
+                }, 
+                {
+                    "Name": "timeout", 
+                    "values": []
+                }
+            ], 
+            "Type": "test"
+        }
+    ]
+}
